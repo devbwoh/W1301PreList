@@ -1,0 +1,133 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\guncannon.jpg" />
+    <None Remove="images\gundam.png" />
+    <None Remove="images\gundam1.jpg" />
+    <None Remove="images\gundam2.jpg" />
+    <None Remove="images\gundam3.jpg" />
+    <None Remove="images\gundammg3.jpg" />
+    <None Remove="images\guntank.jpg" />
+    <None Remove="images\zaku.jpg" />
+    <None Remove="images\zudah.jpg" />
+    <None Remove="images\갸프랑.jpg" />
+    <None Remove="images\건너자쿠워리어.jpg" />
+    <None Remove="images\건너자쿠워리어sd.jpg" />
+    <None Remove="images\건너자쿠워리어sd2.jpg" />
+    <None Remove="images\건너자쿠워리어sd3.jpg" />
+    <None Remove="images\건담.jpg" />
+    <None Remove="images\건담5호기.jpg" />
+    <None Remove="images\건담5호기2.jpg" />
+    <None Remove="images\건담5호기3.jpg" />
+    <None Remove="images\건담5호기4.jpg" />
+    <None Remove="images\건담mg.jpg" />
+    <None Remove="images\건담mg2.jpg" />
+    <None Remove="images\건담mg3.jpg" />
+    <None Remove="images\건담Mk-II에우고.jpg" />
+    <None Remove="images\건담Mk-II에우고2.jpg" />
+    <None Remove="images\건담Mk-II티탄즈.jpg" />
+    <None Remove="images\건담Mk-II티탄즈2.jpg" />
+    <None Remove="images\건담Mk-II티탄즈미니.jpg" />
+    <None Remove="images\건담스테이맨.jpg" />
+    <None Remove="images\건캐논.jpg" />
+    <None Remove="images\건캐논2.jpg" />
+    <None Remove="images\건탱크.jpg" />
+    <None Remove="images\건탱크2.jpg" />
+    <None Remove="images\겔구그.jpg" />
+    <None Remove="images\겔구그예거.jpg" />
+    <None Remove="images\겔구그예거2.jpg" />
+    <None Remove="images\고그.jpg" />
+    <None Remove="images\구프.jpg" />
+    <None Remove="images\네모.jpg" />
+    <None Remove="images\노이에질.jpg" />
+    <None Remove="images\뉴건담.jpg" />
+    <None Remove="images\뉴건담sd.jpg" />
+    <None Remove="images\뉴건담sd2.jpg" />
+    <None Remove="images\돔.jpg" />
+    <None Remove="images\레전드건담.jpg" />
+    <None Remove="images\릭돔.jpg" />
+    <None Remove="images\릭돔sd.jpg" />
+    <None Remove="images\릭디아스샤아전용.jpg" />
+    <None Remove="images\마라사이.jpg" />
+    <None Remove="images\모빌씨그.jpg" />
+    <None Remove="images\베르데버스터건담.jpg" />
+    <None Remove="images\베르데버스터건담sd.jpg" />
+    <None Remove="images\베르데버스터건담sd2.jpg" />
+    <None Remove="images\블레이즈자쿠팬텀.jpg" />
+    <None Remove="images\블레이즈자쿠팬텀sd.jpg" />
+    <None Remove="images\블레이즈자쿠팬텀sd2.jpg" />
+    <None Remove="images\블리츠건담.jpg" />
+    <None Remove="images\블리츠건담2.jpg" />
+    <None Remove="images\블리츠건담sd.jpg" />
+    <None Remove="images\사이살리스.jpg" />
+    <None Remove="images\스트라이크건담.jpg" />
+    <None Remove="images\스트라이크건담2.jpg" />
+    <None Remove="images\스트라이크건담3.jpg" />
+    <None Remove="images\아스트레이레드.jpg" />
+    <None Remove="images\아스트레이레드sd.jpg" />
+    <None Remove="images\알렉스.jpg" />
+    <None Remove="images\알렉스2.jpg" />
+    <None Remove="images\앗가이.jpg" />
+    <None Remove="images\앗가이sd.jpg" />
+    <None Remove="images\육전형건.jpg" />
+    <None Remove="images\이지스.jpg" />
+    <None Remove="images\자쿠II.jpg" />
+    <None Remove="images\자쿠IImg.jpg" />
+    <None Remove="images\자쿠IImg2.jpg" />
+    <None Remove="images\자쿠IImg3.jpg" />
+    <None Remove="images\자쿠IIsd.jpg" />
+    <None Remove="images\자쿠II미니.jpg" />
+    <None Remove="images\자쿠II미니2.jpg" />
+    <None Remove="images\자쿠II샤아전용.jpg" />
+    <None Remove="images\자쿠II샤아전용sd.jpg" />
+    <None Remove="images\제타건담.jpg" />
+    <None Remove="images\제피랜더스.jpg" />
+    <None Remove="images\조그.jpg" />
+    <None Remove="images\주다.jpg" />
+    <None Remove="images\즈고크E.jpg" />
+    <None Remove="images\즈고크E2.jpg" />
+    <None Remove="images\짐mini.jpg" />
+    <None Remove="images\짐스나이퍼II.jpg" />
+    <None Remove="images\짐스나이퍼II2.jpg" />
+    <None Remove="images\짐스트라이커.jpg" />
+    <None Remove="images\짐커맨드.jpg" />
+    <None Remove="images\캠퍼.jpg" />
+    <None Remove="images\큐베레이MK-2.jpg" />
+    <None Remove="images\큐베레이MK-2a.jpg" />
+    <None Remove="images\파워드짐.jpg" />
+    <None Remove="images\파워드짐2.jpg" />
+    <None Remove="images\파워드짐mini.jpg" />
+    <None Remove="images\프리덤건담.jpg" />
+    <None Remove="images\프리덤건담2.jpg" />
+    <None Remove="images\프리덤건담3.jpg" />
+    <None Remove="images\하이잭연방.jpg" />
+    <None Remove="images\헤이즐커스텀.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+
+</Project>
